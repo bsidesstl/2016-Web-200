@@ -3,6 +3,10 @@ API Access Violation is a challenge where competitors have to connect to a serve
 Competitors will connect to the sinatra server and navigate the pages to find the flag (MCA-618584AA) most pages require an API key to function correctly.
 Any 8 character sequence that begins DAPI or MAPI will work.  You can also connect to /api/key-request/mobile or /api/key-request/desktop to generate a key.  A list of methods can be found at /help
 
+## Running the Challenge
+
+In order to stand up the challenge run `docker-compose up`. The challenge will then be accessible on port 80.
+
 ## Solution ##
 
 Connect to /getPicture/DAPI1234/Flag.png and view the source code.

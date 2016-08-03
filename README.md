@@ -9,4 +9,6 @@ In order to stand up the challenge run `docker-compose up`. The challenge will t
 
 ## Solution ##
 
-Connect to /getPicture/DAPI1234/Flag.png and view the source code.
+1. Go to localhost and view the mobile access key (change the mobile in the url to desktop if you use desktop).
+2. Change the url localhost/help for more information on the necessary urls.
+3. Connect to /getPicture/DAPI1234/Flag.png and view the source code.

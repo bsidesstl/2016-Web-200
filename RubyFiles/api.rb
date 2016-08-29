@@ -16,7 +16,8 @@ get '/api/key-request/mobile' do
   '<title>API Key Request</title>
 <h1>API Key Request</h1>
 Your key is: MAPI' + num.to_s + '<br>
-This key is usable for all APIs'
+This key is usable for all APIs
+<!-- desktop API access is coming soon. -->'
 end
 
 get '/api/key-request/desktop' do

@@ -99,7 +99,7 @@ Check help for more information'
         send_file 'ErrorInvalidCredentials.png'
       elsif params['filename'].to_s.eql? 'Flag.png'
         '<title>Flag.png</title>
-<!--MCA-618584AA-->
+<!--STL-OHJAQU2G-->
 Error displaying image'
       elsif params['filename'].to_s.eql? 'Hello.png'
         send_file 'Hello.png'
